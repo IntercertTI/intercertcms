@@ -34,12 +34,7 @@ export default function RootLayout({
         enableSystem
         disableTransitionOnChange
     >
-
-      {/* <Header /> TODO: add header */}
-      <main >
-        {children}
-      </main>
-      {/* <Footer /> TODO: add header */}
+      {children}
     </ThemeProvider>
     <Toaster richColors />
     </body>
