@@ -41,8 +41,7 @@ export default function RootLayout({
       </main>
       {/* <Footer /> TODO: add header */}
     </ThemeProvider>
-    <Toaster />
-
+    <Toaster richColors />
     </body>
     </html>
   );
