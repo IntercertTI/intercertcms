@@ -61,7 +61,7 @@ export default function LoginPage() {
         }
         else {
             toast.success("Login successful");
-            redirect("/account");
+            redirect("/editor/article-dashboard");
         }
 
         setButtonSubmit(false);
